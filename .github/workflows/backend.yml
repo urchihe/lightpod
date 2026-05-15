@@ -35,7 +35,7 @@ jobs:
       - name: Test build (syntax check)
         run: |
           cd backend
-          node src/index.js --check || true
+          node --check src/index.js
 
   # deploy:
   #   needs: quality-check

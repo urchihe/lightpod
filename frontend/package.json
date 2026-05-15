@@ -19,6 +19,9 @@
     "shadcn": "^4.7.0",
     "zod": "^4.4.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": ["msw", "sharp", "unrs-resolver"]
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
